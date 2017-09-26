@@ -1,0 +1,176 @@
+* {
+  box-sizing: border-box;
+}
+#nav {
+
+  background-color: #888888;
+position: fixed; /*設定導覽列一直在上方*/
+top: 0;
+left: 0;
+right: 0;
+z-index: 100;
+}
+
+#content > .container > div {
+  padding: 118px 0;
+}
+
+
+#content {
+  position: relative;
+top: 118px;
+padding: 15px;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+
+#about, #my-work, #contact-me {
+
+}
+.menu li {
+  display: inline-block;
+
+  width: 200px;
+  padding: 30px 0px;
+
+  border: 3px solid #666666;
+  border-radius: 16px;
+
+  list-style-type: none;
+  text-align: center;
+  background-color: #666666;
+  color: #DDDDDD;
+}
+
+
+
+
+a {
+  display: block;
+  color: #AAAAAA;
+  text-decoration: none;
+}
+
+li:hover  {
+  border: 1px solid #AAAAAA;
+  background-color: #AAAAAA;
+}
+
+li:hover a {
+  color: #888888;
+  font-weight: 800;
+}
+
+#my-avatar {
+  float: left;
+    margin-right: 20px;
+}
+#my-avatar img {
+  width: 200px;
+}
+
+#my-info h1 {
+  margin-bottom: 0;
+}
+
+h3 {
+  margin: 0;
+}
+
+table {
+  font-size: 14px;
+  text-align: left;
+}
+
+th, td {
+  vertical-align: top;
+}
+
+td {
+  color: #666;
+  padding-left: 10px;
+}
+
+hr {
+  border: 0.5px solid #eee;
+}
+
+.item {
+  position: relative;
+  max-width: 30%;
+  display: inline-block;
+  margin-bottom: 10px
+}
+.item img {
+  width: 100%;
+}
+
+.item-info {
+
+  background-color: rgba(255,255,255,.8);   /* 背景半透明 */
+  opacity: 0;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+width: 100%;
+height: 100%;
+
+  text align: center;
+  padding: 25px 50px;
+}
+.item-info:hover {
+  opacity: 1;
+}
+
+
+
+form.contact-form {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.form-row {
+  margin-bottom: 15px; /*每行的間隔*/
+}
+.form-row input, .form-row textarea { /*修改欄位*/
+   border-radius: 3px;
+   width: 100%;
+   border: 1px solid #D6D9DC;
+   padding: 7px;
+}
+.form-row textarea {
+  resize: none;
+  height: 4em;
+}
+
+.form-row button { /*修改按纽的部份*/
+  border: none;
+  border-radius: 10px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.form-row button[type="sumbit"] {
+  background-color: #5995DA;
+  color: #FFFFFF;
+}
+
+.form-row button:hover {
+  background-color: #76AEED;
+}
+
+.form-row button:active {
+  background-color: #407FC7;
+}
+
+h1 { /*標题置中*/
+  text-align: center;
+}
+#my-work-gallery { /*圖片置中*/
+    text-align: center;
+}
